@@ -51,3 +51,6 @@ get_prop(mtk_hal_pq, vendor_mtk_aal_ro_prop)
 
 # Purpose : HDR10plus Adaptive feature to query eFuse
 allow mtk_hal_pq sysfs_nvmem:file r_file_perms;
+
+# Allow PQ HAL to use /dev/ion
+allow mtk_hal_pq ion_device:chr_file rw_file_perms;
