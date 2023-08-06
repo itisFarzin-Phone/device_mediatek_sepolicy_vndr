@@ -190,3 +190,6 @@ allow init hidl_base_hwservice:hwservice_manager add;
 allow init hwservicemanager:binder { call transfer };
 
 allow init xcap_socket:sock_file create_file_perms;
+
+# Allow init to write to sysfs_devices_block
+allow init sysfs_devices_block:file w_file_perms;
