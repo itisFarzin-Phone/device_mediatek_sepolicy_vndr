@@ -449,3 +449,6 @@ ro.vendor.mtk_backlight_hwc_support u:object_r:vendor_mtk_backlight_ro_prop:s0
 
 # MAGT support property
 ro.vendor.magt.mtk_magt_support u:object_r:vendor_mtk_magt_support_prop:s0
+
+# Thermal
+vendor.thermal. u:object_r:vendor_thermal_prop:s0
