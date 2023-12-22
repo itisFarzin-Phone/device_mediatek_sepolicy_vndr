@@ -10,7 +10,7 @@ ifeq ($(strip $(TARGET_USING_LEGACY_SELINUX)), true)
         $(MTK_SEPOLICY_PATH)/legacy/non_plat
 endif
 
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     $(MTK_SEPOLICY_PATH)/basic/non_plat \
     $(MTK_SEPOLICY_PATH)/basic/debug/non_plat \
     $(MTK_SEPOLICY_PATH)/bsp/non_plat \
